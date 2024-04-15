@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sams-serif;
+    box-sizing: border-box;
+
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    height: 65px;
+    
+
+}
+form{
+    background: #fff;
+    width:700px;
+    height: 55px;
+    display: flex;
+}
+
+form input{
+    flex:1;
+    border:none;
+    outline:none;
+
+}
+
+
+.container input:focus {
+    width: 450px;
+}
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form .bx bx-search {
+    align-self: center;
+    padding: 10px 20px;
+    columns: #777;
+}
+
+.course{width:100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px; 
+}
+.line{
+    width:150px;
+    height: 4px;
+    background: #fc036b;
+    margin:10px auto;
+    border-radius: 5px;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    font-size: 56px;
+    font-weight: 10px;
+    justify-content: center;
+    color: black;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content:center;
+}
+.is{
+    flex-basis: 31%;
+    width: 300px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 10px 15px;
+    padding: 20px 12px;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/edu.png);
+    height: 200px;
+    color: #f4f4f4;
+
+}
+.is1{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(images01/agri.png);
+    background-size: cover;
+}
+.is2{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)), url(images01/archi.png);
+    background-size: cover;
+}
+.is3{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/arts.png);
+    background-size: cover;
+
+}
+.is4{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/edu.png);
+    background-size: cover;
+}
+
+
+.is:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2)
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: aliceblue;
+
+}
+.row2 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.is5{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/food.png);
+    background-size: cover;
+}
+.is6{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/health.png);
+    background-size: cover;
+}
+.is7{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/mane.png);
+    background-size: cover;
+}
+.is8{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0.7)),url(images01/soci.png);
+    background-size: cover;
+}
+.table-box{
+    margin:50px auto;
+}
+.table-row{
+    display: table;
+    width: 80%;
+    margin: 10px auto;
+    background: transparent;
+    padding: 12px 0;
+    color:#777;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+
+}
+.table-cell{
+    display: table-cell;
+    width: 30%;
+    text-align: center;
+    padding: 0;
+    border-right: 1px solid #fc036b;
+    vertical-align: middle;
+    background:#f4f4f4;
+    font-weight: 600;
+
+}
+.footer{
+    width:100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
